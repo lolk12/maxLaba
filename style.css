@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+}
+.field {
+	width: 25%;
+	height: 100px;
+	background-color: #eee;
+	float: left;
+	margin-top: 10vh;
+
+}
+.field:first-child {
+	margin-left: 25%;
+	border-right: 1px dashed #ccc;
+}
+.field>div{
+	background-color: #5f5e61;
+	width: 24%;
+	height: 50%;
+	float: left;
+	border: 1px dashed #eee;
+	font-size: 22px;
+	color: #eee;
+	text-align: center;
+}
+.red {
+	background-color: #ff9485 !important;
+}
